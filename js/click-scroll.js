@@ -1,5 +1,4 @@
-//jquery-click-scroll
-//by syamsul'isul' Arifin
+
 
 var sectionArray = [1, 2, 3, 4, 5];
 
@@ -18,7 +17,7 @@ $.each(sectionArray, function(index, value){
              $('.navbar-nav .nav-item .nav-link').eq(index).removeClass('inactive');
          }
          
-     });
+     })
     
     $('.click-scroll').eq(index).click(function(e){
         var offsetClick = $('#' + 'section_' + value).offset().top - 90;
